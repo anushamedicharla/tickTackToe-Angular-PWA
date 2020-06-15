@@ -1,0 +1,19 @@
+{
+  "hosting": [
+    {
+      "target": "tickTakToe-PWA",
+      "public": "dist/tickTakToe-PWA",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}

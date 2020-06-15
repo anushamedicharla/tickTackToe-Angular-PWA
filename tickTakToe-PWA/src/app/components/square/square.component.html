@@ -1,0 +1,3 @@
+<button nbButton fullWidth appearance="filled" size="giant" *ngIf="!value"> {{ value }} </button>
+<button nbButton fullWidth appearance="filled" size="giant" status="success" *ngIf="value === 'X'"> {{ value }} </button>
+<button nbButton fullWidth appearance="filled" size="giant" status="info" *ngIf="value === 'O'"> {{ value }} </button>
